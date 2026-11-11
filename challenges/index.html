@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Problem — CATALYST</title>
+<meta name="robots" content="noindex" />
+<meta name="theme-color" content="#050505" />
+<!-- Legacy route. /challenges/?id=… was the detail page before the
+     multi-page restructure; it now forwards to /problems/?id=… so
+     every previously shared link keeps working. -->
+<script>
+(function () {
+  var q = location.search || "";
+  location.replace("../problems/index.html" + q);
+})();
+</script>
+</head>
+<body style="background:#050505;color:#f4f1ea;font-family:system-ui,sans-serif;padding:40px">
+<p>This page has moved. <a href="../problems/index.html" style="color:#F5A623">Continue to the problem page</a>.</p>
+</body>
+</html>
